@@ -2936,7 +2936,6 @@ table td:nth-child(3) {
     font-size: 32px;
     line-height: 120%;
     text-align: center;
-    text-transform: uppercase;
     color: #967533;
 }
 
@@ -3603,6 +3602,10 @@ table td:nth-child(3) {
     .prizes .slick-arrow {
         width: 17px;
         height: 39px;
+    }
+
+    .prizes .slick-arrow {
+        top: -100px;
     }
 
     .products-slider .slick-prev,
