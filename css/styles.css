@@ -2931,6 +2931,14 @@ table td:nth-child(3) {
     height: 210px;
 }
 
+.prize2 .prize-img {
+    margin-right: -25px;
+}
+
+.prize3 .prize-img {
+    margin-right: -20px;
+}
+
 .prize-title {
     font-weight: 900;
     font-size: 32px;
@@ -3788,6 +3796,10 @@ table td:nth-child(3) {
 
     .prize {
         position: relative;
+    }
+
+    .prize-img {
+        height: auto;
     }
 
     .prize-title,
