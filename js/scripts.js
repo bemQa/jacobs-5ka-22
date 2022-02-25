@@ -264,6 +264,15 @@ $(document).ready(function () {
             slidesToShow: 1,
             slidesToScroll: 1
         });
+
+        $('.prizes').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
     }
 
 });
