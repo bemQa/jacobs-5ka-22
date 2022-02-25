@@ -50,20 +50,6 @@ $(document).ready(function () {
         return false;
     });
 
-    if($('.main-block').length) {
-        $(window).on('scroll load', function () {
-            var top = $(window).scrollTop();
-            var destination = $('#prizes').offset().top-250;
-            if(top >= destination) {
-                $('.anchor[href^="#main"]').removeClass('active');
-                $('.anchor[href^="#prizes"]').addClass('active');
-            } else {
-                $('.anchor[href^="#main"]').addClass('active');
-                $('.anchor[href^="#prizes"]').removeClass('active');
-            }
-        });
-    }
-
     function OpenPopup(popupId) {
         $('body').removeClass('no-scrolling');
         $('.popup').removeClass('js-popup-show');
