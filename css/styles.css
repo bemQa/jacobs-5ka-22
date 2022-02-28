@@ -3052,6 +3052,712 @@ table td:nth-child(3) {
     margin-bottom: 20px;
 }
 
+.forest1-block {
+    position: relative;
+    min-height: 748px;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.forest1-block::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 805px;
+    background: url(../img/dream-green/3/bg_first.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.dream-green-logo {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 163px;
+}
+
+.forest1-title1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 381px;
+    margin-bottom: 20px;
+}
+
+.forest1-title2 {
+    font-weight: bold;
+    font-size: 87px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.forest2-block {
+    position: relative;
+    min-height: 702px;
+    padding: 80px 0 0;
+}
+
+.forest2-block::before {
+    content: '';
+    position: absolute;
+    top: -98px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 802px;
+    background: url(../img/dream-green/3/bg_second.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.forest2-title1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 69px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+.forest2-title2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.forest2-text {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.forest3-slider {
+    position: relative;
+    width: 100%;
+    height: 1010px;
+}
+
+.forest3-slide {
+    position: relative;
+    width: 100%;
+    height: 1010px;
+}
+
+.forest3-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%; 
+}
+
+.forest3-1 {
+    background: url(../img/dream-green/3/1.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-2 {
+    background: url(../img/dream-green/3/2.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-3 {
+    background: url(../img/dream-green/3/3.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-4 {
+    background: url(../img/dream-green/3/4.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-5 {
+    background: url(../img/dream-green/3/5.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-6 {
+    background: url(../img/dream-green/3/6.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.forest3-slide-title {
+    position: relative;
+    padding-top: 750px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forest3-slider .slick-dots {
+    bottom: 140px;
+}
+
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active {
+    transform: scale(1.5);
+    background: radial-gradient(82.78% 1959.14% at 49.73% 56.76%, #FADC7F 0%, #D6B24F 23.7%, #C09932 52.08%, #CFAC46 75.96%, #FADC7F 100%);
+}
+
+.slick-dots li button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.forest4-block {
+    position: relative;
+    height: 700px;
+}
+
+.forest4-block::before {
+    content: '';
+    position: absolute;
+    top: -90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 794px;
+    background: url(../img/dream-green/3/bg_third.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.forest4-title {
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.forest4-title span {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #B58840;
+}
+
+.forest4-prizes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.forest4-prizes .prize-img {
+    height: 392px;
+}
+
+.forest4-prizes .prize-title {
+    font-size: 30px;
+    color: #B58840;
+}
+
+.forest4-prizes .prize-text {
+    color: #B58840;
+}
+
+.zakaznik1-block {
+    position: relative;
+    min-height: 530px;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.zakaznik1-block::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 712px;
+    background: url(../img/dream-green/2/bg_first.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik1-block .container {
+    max-width: 1390px;
+}
+
+.zakaznik1-title1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C3E14;
+    padding-top: 290px;
+    margin-bottom: 40px;
+}
+
+.zakaznik1-title2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.zakaznik2-block {
+    position: relative;
+    min-height: 890px;
+    padding: 150px 0 0;
+}
+
+.zakaznik2-block::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 913px;
+    background: url(../img/dream-green/2/bg_second.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik2-block .container {
+    max-width: 1160px;
+}
+
+.zakaznik2-title1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 240px;
+    margin-bottom: 250px;
+}
+
+.zakaznik2-title1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 274px;
+    background: url(../img/dream-green/2/icon_pin.png) center no-repeat;
+    background-size: contain;
+}
+
+.zakaznik2-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.zakaznik3-block {
+    position: relative;
+    min-height: 990px;
+    padding: 95px 0 0;
+    z-index: 1;
+}
+
+.zakaznik3-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1093px;
+    background: url(../img/dream-green/2/bg_third.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik3-title1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 320px;
+    margin-bottom: 370px;
+}
+
+.zakaznik3-title1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 618px;
+    height: 260px;
+    background: url(../img/dream-green/2/icon_status.png) center no-repeat;
+    background-size: contain;
+}
+
+.zakaznik3-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.zakaznik4-block {
+    position: relative;
+    min-height: 1433px;
+    padding: 70px 0 0;
+}
+
+.zakaznik4-block::before {
+    content: '';
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1565px;
+    background: url(../img/dream-green/2/bg_fourth.jpg) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik4-title1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 273px;
+    margin-bottom: 100px;
+}
+
+.zakaznik4-title1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 273px;
+    background: url(../img/dream-green/2/icon_wrld.png) center no-repeat;
+    background-size: contain;
+}
+
+.zakaznik4-slider {
+    position: relative;
+    width: 100%;
+    height: 604px;
+    margin-bottom: 100px;
+}
+
+.zakaznik4-slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 23vw;
+    height: 604px;
+    background: linear-gradient(90deg, #1C3E14 0%, rgba(28, 62, 20, 0) 100%);
+    z-index: 1;
+}
+
+.zakaznik4-slider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 23vw;
+    height: 604px;
+    background: linear-gradient(270deg, #1C3E14 0%, rgba(28, 62, 20, 0) 100%);
+    z-index: 1;
+}
+
+.zakaznik4-slide {
+    position: relative;
+    max-width: 646px;
+    width: 100%;
+    height: 604px;
+    margin: 0 20px;
+}
+
+.zakaznik4-slide-img {
+    position: relative;
+    max-width: 646px;
+    width: 100%;
+    height: 604px;
+    margin: auto;
+    border-bottom: 10px solid #3A8240;
+}
+
+.slick-current .zakaznik4-slide-img {
+    border-bottom: 10px solid #1C3E14;
+}
+
+.zakaznik4-slide-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zakaznik4-slider .slick-dots {
+    bottom: -60px;
+}
+
+.zakaznik4-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.zakaznik5-block {
+    position: relative;
+    min-height: 936px;
+    padding: 50px 0 0;
+}
+
+.zakaznik5-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1008px;
+    background: url(../img/dream-green/2/bg_fifth.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik5-block .container {
+    max-width: 1160px;
+}
+
+.zakaznik5-title1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 274px;
+    margin-bottom: 116px;
+}
+
+.zakaznik5-title1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 274px;
+    background: url(../img/dream-green/2/icon_problem.png) center no-repeat;
+    background-size: contain;
+}
+
+.zakaznik5-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.zakaznik6-block {
+    position: relative;
+    min-height: 1110px;
+    padding: 106px 0 0;
+}
+
+.zakaznik6-block::before {
+    content: '';
+    position: absolute;
+    top: -454px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1565px;
+    background: url(../img/dream-green/2/bg_sixth.png) center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.zakaznik6-title1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 273px;
+    margin-bottom: 116px;
+}
+
+.zakaznik6-title1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 273px;
+    background: url(../img/dream-green/2/icon_help.png) center no-repeat;
+    background-size: contain;
+}
+
+.zakaznik6-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.fond-block {
+    position: relative;
+    padding: 100px 0 260px;
+    background: #000;
+}
+
+.fond-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 630px;
+    background: url(../img/paper.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+.fond-block::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 384px;
+    height: 223px;
+    background: url(../img/dream-green/firtree.png) center 0 no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+
+.fond-title {
+    font-size: 32px;
+    line-height: 1.1;
+    text-align: center;
+    color: #1C3E14;
+    margin-bottom: 45px;
+}
+
+.fond-title span {
+    display: block;
+    font-weight: 500;
+    color: #3A8240;
+}
+
+.fond-img {
+    max-width: 449px;
+    width: 100%;
+    margin: auto;
+}
+
 @media (max-width: 1440px) {
     footer::before {
         background-size: cover;
@@ -3059,7 +3765,16 @@ table td:nth-child(3) {
 }
 
 @media (max-width: 1366px) {
-    .steps-block::after {
+    .steps-block::after,
+    .forest1-block::before,
+    .forest2-block::before,
+    .forest4-block::before,
+    .zakaznik1-block::before,
+    .zakaznik2-block::before,
+    .zakaznik3-block::before,
+    .zakaznik4-block::before,
+    .zakaznik5-block::before,
+    .zakaznik6-block::before {
         background-size: cover;
     }
 }
@@ -3068,6 +3783,10 @@ table td:nth-child(3) {
     .menu-links {
         max-width: 800px;
         margin: auto 15px 0 auto;
+    }
+
+    .zakaznik1-title2 {
+        font-size: 64px;
     }
 }
 
@@ -3086,6 +3805,14 @@ table td:nth-child(3) {
 
     .prize-title {
         font-size: 26px;
+    }
+
+    .forest2-text {
+        font-size: 33px;
+    }
+
+    .zakaznik2-text {
+        font-size: 36px;
     }
 }
 
@@ -3303,6 +4030,7 @@ table td:nth-child(3) {
 
     .footer-links a {
         margin: 5px auto;
+        text-decoration: underline;
     }
 
     .footer-links a:not(:last-child)::after {
@@ -3867,10 +4595,348 @@ table td:nth-child(3) {
         font-size: 21px;
         line-height: 28px;
     }
+
+    .forest1-block {
+        min-height: 490px;
+        margin-top: 50px;
+    }
+
+    .forest1-block::before {
+        top: 0;
+        height: 490px;
+    }
+
+    .dream-green-logo {
+        top: 28px;
+        width: 107px;
+    }
+
+    .forest1-title1 {
+        font-size: 24px;
+        padding-top: 250px;
+        margin-bottom: 38px;
+    }
+
+    .forest1-title2 {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .forest2-block {
+        min-height: 500px;
+        padding-top: 45px;
+    }
+
+    .forest2-block::before {
+        top: -70px;
+        height: 570px;
+    }
+
+    .forest2-title1 {
+        font-size: 34px;
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+    .forest2-title2 {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .forest2-text {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .forest3-slider,
+    .forest3-slide {
+        height: 554px;
+    }
+
+    .forest3-slide-title {
+        max-width: 365px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 380px;
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .forest3-slider .slick-dots {
+        bottom: 55px;
+    }
+
+    .slick-dots li {
+        width: 12px;
+        height: 12px;
+        margin: 6px;
+    }
+
+    .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    .forest4-block {
+        height: auto;
+        min-height: 1546px;
+    }
+
+    .forest4-block::before {
+        top: -40px;
+        height: 400px;
+        background: url(../img/dream-green/3/bg_third-mob.png) center 0 no-repeat;
+        background-size: 100% 421px;
+        z-index: 1;
+    }
+
+    .forest4-block::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background: #1C3E14;
+        z-index: 0;
+    }
+
+    .forest4-title,
+    .forest4-title span {
+        font-size: 22px;
+        line-height: 1.1;
+    }
+
+    .forest4-prizes {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px auto 0;
+    }
+
+    .forest4-prizes .prize-img {
+        height: auto;
+    }
+
+    .forest4-prizes .prize:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .forest4-prizes .prize-text {
+        font-weight: normal;
+    }
+
+    .zakaznik1-block {
+        min-height: 400px;
+        margin-top: 50px;
+    }
+
+    .zakaznik1-block::before {
+        height: 538px;
+    }
+
+    .zakaznik1-title1 {
+        font-size: 24px;
+        padding-top: 230px;
+        margin-bottom: 38px;
+    }
+
+    .zakaznik1-title2 {
+        max-width: 340px;
+        width: 100%;
+        margin: auto;
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .zakaznik2-block {
+        min-height: 665px;
+        padding-top: 110px;
+    }
+
+    .zakaznik2-block::before {
+        top: -20px;
+        height: 690px;
+    }
+
+    .zakaznik2-title1 {
+        font-size: 30px;
+        padding-top: 170px;
+        margin-bottom: 215px;
+    }
+
+    .zakaznik2-title1::before {
+        width: 140px;
+        height: 160px;
+    }
+
+    .zakaznik2-text {
+        max-width: 370px;
+        width: 100%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .zakaznik3-block {
+        min-height: 750px;
+        padding-top: 20px;
+    }
+
+    .zakaznik3-block::before {
+        height: 826px;
+    }
+
+    .zakaznik3-title1 {
+        font-size: 34px;
+        padding-top: 165px;
+        margin-bottom: 314px;
+    }
+
+    .zakaznik3-title1::before {
+        left: -50px;
+        right: -50px;
+        width: 300px;
+        height: 126px;
+    }
+
+    .zakaznik3-text {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .zakaznik4-block {
+        min-height: 890px;
+        padding-top: 20px;
+    }
+
+    .zakaznik4-block::before {
+        top: -284px;
+        height: 1183px;
+    }
+
+    .zakaznik4-title1 {
+        font-size: 34px;
+        padding-top: 140px;
+        margin-bottom: 75px;
+    }
+
+    .zakaznik4-title1::before {
+        width: 140px;
+        height: 159px;
+    }
+
+    .zakaznik4-slider {
+        height: 302px;
+        margin-bottom: 110px;
+    }
+
+    .zakaznik4-slider::before,
+    .zakaznik4-slider::after {
+        width: 15px;
+        height: 302px;
+    }
+
+    .zakaznik4-slide {
+        max-width: 322px;
+        height: 302px;
+        margin: 0 6px
+    }
+
+    .zakaznik4-slide-img {
+        max-width: 322px;
+        border-bottom: 5px solid #3A8240;
+    }
+
+    .slick-current .zakaznik4-slide-img {
+        border-bottom: 5px solid #1C3E14;
+    }
+
+    .zakaznik4-slider .slick-dots {
+        bottom: -40px;
+    }
+
+    .zakaznik5-block {
+        min-height: 705px;
+        padding-top: 20px;
+    }
+
+    .zakaznik5-block::before {
+        top: 0;
+        height: 763px;
+    }
+
+    .zakaznik5-title1 {
+        font-size: 34px;
+        padding-top: 160px;
+        margin-bottom: 164px;
+    }
+
+    .zakaznik5-title1::before {
+        width: 140px;
+        height: 160px;
+    }
+
+    .zakaznik5-text {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .zakaznik6-block {
+        min-height: 846px;
+        padding-top: 70px;
+    }
+
+    .zakaznik6-block::before {
+        top: -335px;
+        height: 1183px;
+    }
+
+    .zakaznik6-title1 {
+        font-size: 34px;
+        padding-top: 160px;
+        margin-bottom: 95px;
+    }
+
+    .zakaznik6-title1::before {
+        width: 140px;
+        height: 159px;
+    }
+
+    .zakaznik6-text {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .fond-block {
+        padding: 60px 0 150px;
+    }
+
+    .fond-block::before {
+
+    }
+
+    .fond-block::after {
+        bottom: 0;
+        left: -50px;
+        width: 222px;
+        height: 129px;
+    }
+
+    .fond-title {
+        font-size: 18px;
+    }
+
+    .fond-img {
+        max-width: 307px;
+    }
 }
 
 @media (max-width: 375px) {
-    .steps-block::after {
+    .steps-block::after,
+    .forest4-block::before {
         background-size: cover;
     }
 
@@ -3962,5 +5028,30 @@ table td:nth-child(3) {
 
     .prizes {
         margin-bottom: 120px;
+    }
+
+    .forest2-title2 {
+        font-size: 27px;
+    }
+
+    .forest2-text {
+        font-size: 15px;
+    }
+
+    .zakaznik1-title2 {
+        font-size: 27px;
+    }
+
+    .zakaznik2-title1 {
+        font-size: 26px;
+    }
+
+    .zakaznik5-text,
+    .zakaznik6-text {
+        font-size: 22px;
+    }
+
+    .fond-title {
+        font-size: 15px;
     }
 }

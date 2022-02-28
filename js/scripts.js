@@ -50,6 +50,25 @@ $(document).ready(function () {
         return false;
     });
 
+    if($('.main-block').length) {
+        $(window).on('scroll load', function () {
+            var top = $(window).scrollTop();
+            var href = $('.anchor').attr('href');
+            $('.wrapper section').each(function() {
+                var destination = $(this).offset().top-250;
+                if(top >= destination) {
+                    var id = $(this).attr('id');
+                    $('.menu-link, .anchor[href^="#"]').removeClass('active');
+                    $('.anchor[href^="#'+id+'"]').addClass('active');
+                } else {
+                    $('.menu-link[href^="/"]').addClass('active');
+                    $('.anchor[href^="#'+id+'"]').removeClass('active');
+                    
+                }
+            });
+        });
+    }
+
     function OpenPopup(popupId) {
         $('body').removeClass('no-scrolling');
         $('.popup').removeClass('js-popup-show');
@@ -261,5 +280,33 @@ $(document).ready(function () {
             // adaptiveHeight: true
         });
     }
+
+    $('.forest3-slider').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+
+    $('.zakaznik4-slider').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        variableWidth: true,
+        responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
 
 });
