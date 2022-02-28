@@ -53,19 +53,14 @@ $(document).ready(function () {
     if($('.main-block').length) {
         $(window).on('scroll load', function () {
             var top = $(window).scrollTop();
-            var href = $('.anchor').attr('href');
-            $('.wrapper section').each(function() {
-                var destination = $(this).offset().top-250;
-                if(top >= destination) {
-                    var id = $(this).attr('id');
-                    $('.menu-link, .anchor[href^="#"]').removeClass('active');
-                    $('.anchor[href^="#'+id+'"]').addClass('active');
-                } else {
-                    $('.menu-link[href^="/"]').addClass('active');
-                    $('.anchor[href^="#'+id+'"]').removeClass('active');
-                    
-                }
-            });
+            var destination = $('#prizes').offset().top-250;
+            if(top >= destination) {
+                $('.anchor[href^="#main"]').removeClass('active');
+                $('.anchor[href^="#prizes"]').addClass('active');
+            } else {
+                $('.anchor[href^="#main"]').addClass('active');
+                $('.anchor[href^="#prizes"]').removeClass('active');
+            }
         });
     }
 
