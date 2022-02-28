@@ -3893,6 +3893,7 @@ table td:nth-child(3) {
     margin: auto;
     background: url(../img/dream-green/1/facts1.png) center no-repeat;
     background-size: contain;
+    mix-blend-mode: hard-light;
 }
 
 .strategy4-block {
@@ -3994,6 +3995,7 @@ table td:nth-child(3) {
     margin: auto;
     background: url(../img/dream-green/1/facts2.png) center no-repeat;
     background-size: contain;
+    mix-blend-mode: hard-light;
 }
 
 .strategy6-block {
@@ -4105,6 +4107,7 @@ table td:nth-child(3) {
     margin: auto;
     background: url(../img/dream-green/1/facts3.png) center no-repeat;
     background-size: contain;
+    mix-blend-mode: hard-light;
 }
 
 .strategy8-block {
@@ -4210,6 +4213,7 @@ table td:nth-child(3) {
     margin: 20px auto 100px;
     background: url(../img/dream-green/1/facts4.png) center no-repeat;
     background-size: contain;
+    mix-blend-mode: hard-light;
 }
 
 .fond-btn-wrapper {
