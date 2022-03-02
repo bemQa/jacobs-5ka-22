@@ -3335,8 +3335,14 @@ table td:nth-child(3) {
     margin: auto;
     width: 100%;
     height: 712px;
-    background: url(../img/dream-green/2/bg_first.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/dream-green/2/bg_first-new.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .zakaznik1-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .zakaznik1-block .container {
@@ -3372,14 +3378,22 @@ table td:nth-child(3) {
 .zakaznik2-block::before {
     content: '';
     position: absolute;
-    top: -20px;
+    /*top: -20px;*/
+    top: -98px;
     left: 0;
     right: 0;
     margin: auto;
     width: 100%;
-    height: 913px;
-    background: url(../img/dream-green/2/bg_second.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    /*height: 913px;*/
+    height: 990px;
+    background: url(../img/dream-green/2/bg_second-new.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .zakaznik2-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .zakaznik2-block .container {
@@ -3436,9 +3450,16 @@ table td:nth-child(3) {
     right: 0;
     margin: auto;
     width: 100%;
-    height: 1093px;
-    background: url(../img/dream-green/2/bg_third.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    /*height: 1093px;*/
+    height: 1197px;
+    background: url(../img/dream-green/2/bg_third-new.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .zakaznik3-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .zakaznik3-title1 {
@@ -3486,14 +3507,21 @@ table td:nth-child(3) {
 .zakaznik4-block::before {
     content: '';
     position: absolute;
-    top: -120px;
+    /*top: -120px;*/
+    top: -132px;
     left: 0;
     right: 0;
     margin: auto;
     width: 100%;
     height: 1565px;
-    background: url(../img/dream-green/2/bg_fourth.jpg) center 0 no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/dream-green/2/bg_fourth-new.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .zakaznik4-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .zakaznik4-title1 {
@@ -3778,14 +3806,21 @@ table td:nth-child(3) {
 .strategy1-block::before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     margin: auto;
     width: 100%;
-    height: 633px;
-    background: url(../img/dream-green/1/bg_first.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    height: 858px;
+    /*height: 633px;*/
+    background: url(../img/dream-green/1/bg_first-new.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .strategy1-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .strategy1-title1 {
@@ -3812,22 +3847,31 @@ table td:nth-child(3) {
 
 .strategy2-block {
     position: relative;
-    min-height: 800px;
+    /*min-height: 800px;*/
+    min-height: 880px;
     padding: 140px 0 0;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .strategy2-block::before {
     content: '';
     position: absolute;
-    top: -30px;
+    /*top: -30px;*/
+    top: -115px;
     left: 0;
     right: 0;
     margin: auto;
     width: 100%;
-    height: 914px;
-    background: url(../img/dream-green/1/bg_second.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    /*height: 914px;*/
+    height: 996px;
+    background: url(../img/dream-green/1/bg_second-new.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .strategy2-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .strategy2-title1 {
@@ -4013,8 +4057,14 @@ table td:nth-child(3) {
     margin: auto;
     width: 100%;
     height: 1035px;
-    background: url(../img/dream-green/1/bg_sixth.jpg) center 0 no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/dream-green/1/bg_sixth-new.jpg) center 0 no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1921px) {
+    .strategy6-block::before {
+        background-size: 100% 100%;
+    }
 }
 
 .strategy6-block .container {
@@ -4251,6 +4301,54 @@ table td:nth-child(3) {
     .strategy5-block::before,
     .strategy6-block::before,
     .strategy7-block::before {
+        background-size: cover;
+    }
+
+    .zakaznik1-block::before {
+        background: url(../img/dream-green/2/bg_first.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .zakaznik2-block::before {
+        top: -20px;
+        height: 913px;
+        background: url(../img/dream-green/2/bg_second.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .zakaznik3-block::before {
+        height: 1093px;
+        background: url(../img/dream-green/2/bg_third.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .zakaznik4-block::before {
+        top: -120px;
+        background: url(../img/dream-green/2/bg_fourth.jpg) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .strategy1-block::before {
+        width: 100%;
+        height: 633px;
+        background: url(../img/dream-green/1/bg_first.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .strategy2-block {
+        min-height: 800px;
+        z-index: 1;
+    }
+
+    .strategy2-block::before {
+        top: -30px;
+        height: 914px;
+        background: url(../img/dream-green/1/bg_second.png) center 0 no-repeat;
+        background-size: cover;
+    }
+
+    .strategy6-block::before {
+        background: url(../img/dream-green/1/bg_sixth.jpg) center 0 no-repeat;
         background-size: cover;
     }
 }

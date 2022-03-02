@@ -156,7 +156,7 @@ $(document).ready(function () {
             });
         });
         jQuery.validator.addMethod('email', function (value, element) {
-            return this.optional(element) || /\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6}/.test(value);
+            return this.optional(element) || /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/.test(value);
         });
         jQuery.validator.addMethod('phone', function (value, element) {
             return this.optional(element) || /\+7\(\d+\)\d{3}-\d{2}-\d{2}/.test(value);
@@ -282,7 +282,9 @@ $(document).ready(function () {
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
     });
 
     $('.zakaznik4-slider').slick({
@@ -294,6 +296,8 @@ $(document).ready(function () {
         slidesToScroll: 1,
         centerMode: true,
         variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         responsive: [
         {
           breakpoint: 1000,
