@@ -2740,12 +2740,12 @@ table td:nth-child(3) {
 .steps-block::after {
     content: '';
     position: absolute;
-    top: -275px;
+    top: -286px;
     left: -1000px;
     right: -1000px;
     margin: auto;
     width: 100%;
-    height: 1310px;
+    height: 1370px;
     background: url(../img/main-bg.png) center 0 no-repeat;
     background-size: 100% 100%;
     z-index: 0;
@@ -2764,7 +2764,23 @@ table td:nth-child(3) {
     background: linear-gradient(90deg, #FADC7F 7.45%, #D6B24F 27.49%, #C09932 51.49%, #CFAC46 71.68%, #FADC7F 92.01%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+}
+
+.safes-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto 25px;
+}
+
+.safes-subtitle a {
+    color: #D4B464;
 }
 
 .safes {
@@ -3634,6 +3650,7 @@ table td:nth-child(3) {
     position: relative;
     min-height: 936px;
     padding: 50px 0 0;
+    z-index: 1;
 }
 
 .zakaznik5-block::before {
@@ -3644,9 +3661,10 @@ table td:nth-child(3) {
     right: 0;
     margin: auto;
     width: 100%;
-    height: 1008px;
-    background: url(../img/dream-green/2/bg_fifth.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    /*height: 1008px;*/
+    height: 940px;
+    background: url(../img/dream-green/2/bg_fifth-new.png) center bottom no-repeat;
+    background-size: 100% 1015px;
 }
 
 .zakaznik5-block .container {
@@ -3692,18 +3710,18 @@ table td:nth-child(3) {
 .zakaznik6-block {
     position: relative;
     min-height: 1110px;
-    padding: 106px 0 0;
+    padding: 156px 0 0;
 }
 
 .zakaznik6-block::before {
     content: '';
     position: absolute;
-    top: -454px;
+    top: -634px;
     left: 0;
     right: 0;
     margin: auto;
     width: 100%;
-    height: 1565px;
+    height: 1745px;
     background: url(../img/dream-green/2/bg_sixth.png) center 0 no-repeat;
     background-size: 100% 100%;
 }
@@ -3719,7 +3737,7 @@ table td:nth-child(3) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 273px;
-    margin-bottom: 116px;
+    margin-bottom: 80px;
 }
 
 .zakaznik6-title1::before {
@@ -3885,7 +3903,7 @@ table td:nth-child(3) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 300px;
-    margin-bottom: 250px;
+    margin-bottom: 220px;
 }
 
 .strategy2-title1::before {
@@ -3910,9 +3928,20 @@ table td:nth-child(3) {
     color: #FFFFFF;
 }
 
+.strategy2-text span {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    text-transform: none;
+    color: #FFFFFF;
+
+}
+
 .strategy3-block {
     position: relative;
-    min-height: 1425px;
+    min-height: 1225px;
     padding-top: 150px;
 }
 
@@ -3924,16 +3953,16 @@ table td:nth-child(3) {
     right: 0;
     margin: auto;
     width: 100%;
-    height: 1545px;
-    background: url(../img/dream-green/1/bg_third.png) center 0 no-repeat;
-    background-size: 100% 100%;
+    height: 1345px;
+    background: url(../img/dream-green/1/bg_third.png) center bottom no-repeat;
+    background-size: 100% 1545px;
 }
 
 .facts1 {
     position: relative;
     max-width: 1060px;
     width: 100%;
-    height: 1158px;
+    height: 859px;
     margin: auto;
     background: url(../img/dream-green/1/facts1.png) center no-repeat;
     background-size: contain;
@@ -4999,7 +5028,7 @@ table td:nth-child(3) {
 
     .steps-block::after {
         top: -90px;
-        height: 1365px;
+        height: 1450px;
         background: url(../img/main-bg-mob.png) center no-repeat;
         background-size: 100% 100%;
     }
@@ -5007,8 +5036,14 @@ table td:nth-child(3) {
     .safes-title {
         max-width: 348px;
         width: 100%;
-        margin: 0 auto 30px;
+        margin: 0 auto 15px;
         font-size: 26px;
+    }
+
+    .safes-subtitle {
+        max-width: 348px;
+        width: 100%;
+        margin: 0 auto 30px;
     }
 
     .safes {
@@ -5557,7 +5592,7 @@ table td:nth-child(3) {
     .strategy2-title1 {
         font-size: 34px;
         padding-top: 220px;
-        margin-bottom: 248px;
+        margin-bottom: 220px;
     }
 
     .strategy2-title1::before {
@@ -5568,6 +5603,10 @@ table td:nth-child(3) {
     .strategy2-text {
         font-size: 26px;
         line-height: 30px;
+    }
+
+    .strategy2-text span {
+        font-size: 12px;
     }
 
     .strategy3-block {
@@ -5829,6 +5868,10 @@ table td:nth-child(3) {
 
     .safes-title {
         font-size: 22px;
+    }
+
+    .safes-subtitle {
+        font-size: 16px;
     }
 
     .safes {
